@@ -1,7 +1,7 @@
 puts "Clearing exisiting data..."
 #Delete child records before parent records to avoid foreign key constraint errors
 
-MaintenaceRecord.destroy_all
+MaintenanceRecord.destroy_all
 Equipment.destroy_all
 Category.destroy_all
 
